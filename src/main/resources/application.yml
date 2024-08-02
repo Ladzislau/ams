@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: bank-account-management
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/account_ms_dev
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  secret: jsha10-923u21buhsdab-0912*HUIHbuan-&01n2uw
+  expiration:
+    days: 30
+
+
+springdoc:
+  swagger-ui:
+    url: /swagger-ui.html
+  api-docs:
+    version: openapi_3_0

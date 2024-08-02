@@ -1,0 +1,16 @@
+## Данные для входа
+
+### АДМИН
+
+- Email: superadmin@ladzislau-bank.by
+- Пароль: heyHES
+
+### ПОЛЬЗОВАТЕЛЬ
+
+- Пользователь 1:
+    - **Email**: `johndoe@mail.by`
+    - **Пароль**: `blackTesla`
+
+- Пользователь 2:
+    - Email: `gustavo@mail.by`
+    - Пароль: `losPollos`
