@@ -70,7 +70,6 @@ docker compose up -d
 Эта команда создаст и запустит контейнер postgresql в качестве БД.
 
 **4. Запустите Spring Boot приложение:**
-**4. Запустите Spring Boot приложение:**
 
 - Для Linux/MacOS:
   ```bash
