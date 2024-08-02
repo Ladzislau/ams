@@ -65,15 +65,21 @@ Account-management-app позволяет пользователям с разл
 **3. Запустите Docker Compose:**
 
    ```bash
-docker compose up
+docker compose up -d
    ```
 Эта команда создаст и запустит контейнер postgresql в качестве БД.
 
 **4. Запустите Spring Boot приложение:**
+**4. Запустите Spring Boot приложение:**
 
-```bash
-./gradlew bootRun
-   ```
+- Для Linux/MacOS:
+  ```bash
+  ./gradlew bootRun
+  ```
+- Для Windows:
+  ```cmd
+  ./gradlew.bat bootRun
+  ```
 
 **5. Документация OpenAPI:**
 
