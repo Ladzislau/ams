@@ -24,6 +24,4 @@ jwt:
 
 springdoc:
   swagger-ui:
-    url: /swagger-ui.html
-  api-docs:
-    version: openapi_3_0
+    path: /swagger-ui.html

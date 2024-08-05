@@ -80,9 +80,10 @@ docker compose up -d
   ./gradlew.bat bootRun
   ```
 
-**5. Документация OpenAPI:**
+**5. Документация Swagger UI:**
 
-Получить документацию OpenAPI в виде JSON можно перейдя по адресу http://localhost:8080/v3/api-docs
+Откройте веб-браузер и перейдите по адресу http://localhost:8080/swagger-ui.html, 
+чтобы получить доступ к Swagger UI, где вы можете изучить API и использовать интерактивную документацию.
 
 ## Данные для входа
 
